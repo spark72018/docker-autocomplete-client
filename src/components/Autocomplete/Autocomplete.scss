@@ -1,0 +1,10 @@
+@import "../../styles/main";
+
+.Autocomplete {
+  &__input {
+    margin-top: $gutter-large;
+    height: 30px;
+    width: 400px;
+    font-size: $font-size-h2;
+  }
+}

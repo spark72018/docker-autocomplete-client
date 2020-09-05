@@ -1,0 +1,31 @@
+@import "../../styles/main";
+
+.AutocompleteResults {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__list {
+    padding: 0;
+    list-style-type: none;
+    width: 400px;
+
+    &__item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      margin-bottom: $gutter;
+      transition: background-color .3s;
+      cursor: pointer;
+      padding: $gutter 0;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: $result-list-item-background-color;
+      }
+    }
+  }
+}
